@@ -1,0 +1,10 @@
+import numpy as np
+h=np.array([1,2,3,4,5,6])
+#p=np.zeros([1])
+#n=np.zeros([2,2])
+print(h)
+print(type(h))
+k=np.zeros((3,4))
+print(k)
+p=np.ones((1,2))
+print(p)
