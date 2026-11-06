@@ -1,0 +1,10 @@
+import pandas as pd
+from scipy.stats import spearmanr
+df=pd.DataFrame({
+    'X':[10,20,30,40,50],
+    'Y':[12,24,33,45,60],
+    'Z':[50,30,22,44,55]
+})
+corr_value,p_value=spearmanr(df['X'],df['Y'])
+print(f"Spearman Correlation Coefficient:{corr_value}")
+print(f"p-value: {p_value}")
